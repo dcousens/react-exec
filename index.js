@@ -8,7 +8,7 @@ export class Exec extends React.PureComponent {
 
   componentDidUpdate (prevProps) {
     if (this.props.onProps) this.props.onProps(prevProps, this.props)
-    if (this.props.onUpdate) this.props.onUpdate()
+    if (this.props.onUpdate) this.props.onUpdate(prevProps, this.props)
   }
 
   render () {

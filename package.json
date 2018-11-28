@@ -1,0 +1,24 @@
+{
+  "name": "react-exec",
+  "version": "1.0.0",
+  "description": "Probably an anti-pattern...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcousens/react-exec.git"
+  },
+  "keywords": [
+    "react",
+    "componentDidMount",
+    "componentDidUpdate"
+  ],
+  "author": "Daniel Cousens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dcousens/react-exec/issues"
+  },
+  "homepage": "https://github.com/dcousens/react-exec#readme"
+}

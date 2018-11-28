@@ -15,7 +15,7 @@ function Clock ({ utc }) {
   const date = new Date(utc).toString()
 
   return <div>
-    <Exec onProps={onProps} />
+    <Exec onProps={onProps} utc={utc} />
     Date: {date}
   </div>
 }

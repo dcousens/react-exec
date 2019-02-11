@@ -21,7 +21,7 @@ function Clock ({ utc }) {
   return <div>
     <Exec onMount={onMount} />
     <Exec onProps={onProps} utc={utc} />
-    <Exec onUpdate={onProps} />
+    <Exec onUpdate={onProps} utc={utc} />
     Date: {date}
   </div>
 }

@@ -11,7 +11,7 @@ function onProps (prevProps, { utc }) {
   document.title = 'Happy billennium'
 }
 
-func onMount () {
+function onMount () {
   console.log('Mounted!')
 }
 

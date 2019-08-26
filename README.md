@@ -1,5 +1,5 @@
 ### react-exec
-# DEPREACTRED: use `useEffect`
+# DEPRECATED: use `useEffect` instead
 
 #### Example
 ``` js

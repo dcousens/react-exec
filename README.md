@@ -1,7 +1,7 @@
-# react-exec
-Probably an anti-pattern...
+### react-exec
+# DEPREACTRED: use `useEffect`
 
-## Example
+#### Example
 ``` js
 function onProps (prevProps, { utc }) {
   if (!prevProps) return // skip initial render, never true for onUpdate
@@ -27,4 +27,4 @@ function Clock ({ utc }) {
 }
 ```
 
-## LICENSE [MIT](LICENSE)
+#### LICENSE [MIT](LICENSE)
